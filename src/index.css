@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main-margin {
+  margin: 0 auto;
+}
+.search-icon {
+  padding: 5px;
+}
+.outer-header {
+  background-color: #c5c5c5;
+  padding: 10px 0px;
+  padding-right: 40px;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+.language-anchor {
+  display: inline-block;
+  margin-right: 15px;
+  color: blue;
+  margin-top: 10px;
+}
+.search-box {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+}
