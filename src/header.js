@@ -2,15 +2,14 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="outer-header">
-      <div className="header">
-        <a className="language-anchor">Spanish</a>
-        <input placeholder="Search" className="search-box"></input>
-        <button>
+    <div className="header">
+      <div className="header-content">
+        <a className="link">Spanish</a>
+        <input type="text" placeholder="Search" className="search"></input>
+        <button className="button">
           <img
-            className="search-icon"
-            src="https://simg.nicepng.com/png/small/350-3506490_search-icon-small-search-icon-small-png.png"
-            width="15px"
+            src="https://freeiconshop.com/wp-content/uploads/edd/search-solid.png"
+            width="14px"
           ></img>
         </button>
       </div>

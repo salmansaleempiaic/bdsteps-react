@@ -1,11 +1,20 @@
 import React from "react";
 import Header from "./header";
+import Logo from "./logo";
+
+import Carousel from "./carousel";
 
 const App = () => {
   return (
-    <div className="main-margin">
-      <Header />
-    </div>
+    <React.Fragment>
+      <div className="outer">
+        <Header />
+      </div>
+      <div>
+        <Logo />
+      </div>
+      <Carousel />
+    </React.Fragment>
   );
 };
 
