@@ -43,6 +43,9 @@ body {
     margin-top: 5px;
     padding-top: 3px;
   }
+  .link:hover {
+    cursor: pointer;
+  }
   .search {
     border: 0;
     margin-right: 5px;
@@ -67,5 +70,51 @@ body {
   }
   .logo {
     margin-left: 106px;
+  }
+  .carousel {
+    overflow: hidden;
+    border: 1px solid #c5c5c5;
+    width: 928px;
+    margin-left: 106px;
+  }
+  .carousel figure {
+    position: relative;
+    width: 400%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+  }
+  .carousel figure a:hover {
+    cursor: pointer;
+  }
+  .carousel figure img {
+    width: 25%;
+    float: left;
+  }
+  @keyframes slider {
+    0% {
+      left: 0;
+    }
+    10% {
+      left: 0%;
+    }
+    30% {
+      left: -100%;
+    }
+    40% {
+      left: -100%;
+    }
+    60% {
+      left: -200%;
+    }
+    70% {
+      left: -200%;
+    }
+    90% {
+      left: -300%;
+    }
+    100% {
+      left: -300%;
+    }
   }
 }

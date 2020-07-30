@@ -4,7 +4,9 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-content">
-        <a className="link">Spanish</a>
+        <a className="link" href="#" target="_blank">
+          Spanish
+        </a>
         <input type="text" placeholder="Search" className="search"></input>
         <button className="button">
           <img
