@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./header";
 import Logo from "./logo";
 import Carousel from "./carousel";
+import Nav from "./nav";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Header />
       <Logo />
       <Carousel />
+      <Nav />
     </div>
   );
 };

@@ -117,4 +117,46 @@ body {
       left: -300%;
     }
   }
+  .nav {
+    margin-top: 35px;
+    margin-left: 106px;
+  }
+  .nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .nav > ul > li {
+    display: block;
+    padding: 10px 15px;
+    min-width: 156px;
+  }
+  .nav li {
+    list-style: none;
+    color: white;
+    font-family: Helvetica;
+  }
+  .nav > ul > li > ul {
+    display: none;
+  }
+  .nav > ul > li:hover > ul {
+    display: block;
+    min-width: 160px;
+    z-index: 1000;
+  }
+  .green {
+    background-color: #40853f;
+  }
+  .orange {
+    background-color: #f37322;
+  }
+  .blue {
+    background-color: #005daa;
+  }
+  .yellow {
+    background-color: #eeb123;
+  }
+  .red {
+    background-color: #b52d1c;
+  }
 }
