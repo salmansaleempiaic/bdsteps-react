@@ -2,82 +2,70 @@ body {
   margin: 0;
   padding: 0;
 }
-.outer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+@media screen and (min-width: 576px) {
+  body {
+    background-color: brown;
+  }
 }
-.header {
-  background-color: #c5c5c5;
-  height: 50px;
-  width: 1138px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+@media screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
 }
-.header-content {
-  margin-top: 2px;
+@media screen and (min-width: 992px) {
+  body {
+    background-color: red;
+  }
 }
-.link {
-  color: #365aa7;
-  margin-right: 15px;
-  font-family: Helvetica, sans-serif;
-  font-size: 14px;
-}
-.search {
-  border: 0;
-  margin-right: 5px;
-  height: 25px;
-  border-radius: 3px;
-  width: 189px;
-  height: 30px;
-  padding-left: 12px;
-  font-family: Helvetica, sans-serif;
-}
-.button {
-  border: 0;
-  height: 32px;
-  border-radius: 3px;
-  margin-right: 30px;
-  width: 38px;
-}
-.gallery {
-  background: #eee;
-}
-
-.gallery-cell {
-  width: 66%;
-  height: 200px;
-  margin-right: 10px;
-  background: #8c8;
-  counter-increment: gallery-cell;
-}
-
-/* cell number */
-.gallery-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-}
-@media only screen and (max-width: 1141px) {
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: white;
+  }
+  .layout {
+    margin: 0 auto;
+    width: 1140px;
+    box-shadow: 2px 2px 10px #888888;
+  }
   .header {
-    width: 928px;
+    height: 52px;
+    background-color: #c5c5c5;
+  }
+  .header-content {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0px 14.5px 0px;
+  }
+  .link {
+    color: #515fab;
+    font-family: Helvetica;
+    font-size: 14px;
+    margin-right: 16px;
+    margin-top: 5px;
+    padding-top: 3px;
+  }
+  .search {
+    border: 0;
+    margin-right: 5px;
+    height: 25px;
+    border-radius: 3px;
+    width: 189px;
+    height: 30px;
+    padding-left: 12px;
+    font-family: Helvetica;
+    font-size: 14px;
+  }
+  .button {
+    border: 0;
+    height: 32px;
+    border-radius: 3px;
+    margin-right: 30px;
+    width: 40px;
+  }
+  .button img {
+    width: 14px;
+    height: 16px;
   }
   .logo {
-    display: block;
-    margin-left: 185px;
-  }
-}
-@media only screen and (max-width: 941px) {
-  .header {
-    width: 708px;
-  }
-}
-@media only screen and (max-width: 720px) {
-  .header {
-    display: none;
+    margin-left: 106px;
   }
 }
